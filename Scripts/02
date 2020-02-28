@@ -1,0 +1,5 @@
+#!/bash/sh
+echo "Who?"
+read user
+sudo pkill -u $user
+sudo deluser --force $user
